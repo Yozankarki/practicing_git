@@ -51,8 +51,20 @@ body {
   margin: 5% 3% 5% 0;
 }
 
+.image-pos {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 #features p {
   color: #8f8f8f;
@@ -98,5 +110,6 @@ em {
 }
 
 #footer {
+  background-color: #fff;
   padding: 7% 15%;
 }/*# sourceMappingURL=styles.css.map */

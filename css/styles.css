@@ -13,6 +13,10 @@ body {
   padding: 7% 15%;
 }
 
+p {
+  color: #8f8f8f;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -45,6 +49,7 @@ body {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #fff;
 }
 
 .download-btn {
@@ -59,15 +64,13 @@ body {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
+  right: 30%;
 }
 
 #features {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-}
-#features p {
-  color: #8f8f8f;
 }
 
 .icon {
@@ -83,6 +86,11 @@ body {
 #testimonials h2 {
   padding: 7% 15%;
   color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonials-image {
@@ -109,7 +117,36 @@ em {
   padding: 7% 15%;
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat-bold";
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
 #footer {
   background-color: #fff;
   padding: 7% 15%;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }/*# sourceMappingURL=styles.css.map */

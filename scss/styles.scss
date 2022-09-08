@@ -19,6 +19,9 @@ body {
   @include padding();
 }
 
+p {
+  color: #8f8f8f;
+}
 #title {
   background-color: $main;
   color: #fff;
@@ -47,6 +50,7 @@ body {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #fff;
 }
 .download-btn {
   margin: 5% 3% 5% 0;
@@ -58,16 +62,13 @@ body {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
+  right: 30%;
 }
 
 #features {
   @include padding();
   background-color: #fff;
   position: relative;
-
-  p {
-    color: #8f8f8f;
-  }
 }
 .icon {
   color: $secondary;
@@ -83,6 +84,10 @@ body {
     @include padding();
     color: #fff;
   }
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 .testimonials-image {
   width: 10%;
@@ -107,7 +112,37 @@ em {
   background-color: $main;
   @include padding();
 }
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat-bold";
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
 #footer {
   background-color: #fff;
   @include padding();
+  padding: 7% 15%;
+}
+.social-icon {
+  padding: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
